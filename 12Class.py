@@ -28,3 +28,22 @@ print(newObj.add())
 newObj.number2 = 10
 print(newObj.add())
 
+# Deleting Object Property
+del newObj.number2
+# the code will remove/ delete property number2 from object newObj
+# if you try to print the object with that property, it will through "AttributeError"
+
+
+# Deleting Object
+del newObj
+# this will delete the newObj.
+
+
+# _______ Pass ___________
+# Class can not be empty. So You have to put something in it
+# If you have nothing to put in a class, you can use "Pass Statement" to avoid getting error.
+
+class RandomClass:
+    pass
+
+
