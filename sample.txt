@@ -1,0 +1,4 @@
+This is a sample file
+With some sentence
+Hello world, we are human
+Trees are green
