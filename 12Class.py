@@ -36,6 +36,8 @@ del newObj.number2
 
 # Deleting Object
 del newObj
+
+
 # this will delete the newObj.
 
 
@@ -46,4 +48,12 @@ del newObj
 class RandomClass:
     pass
 
+    # _________Static Method_______
+    @staticmethod
+    def say_hi():
+        print('Hello There, This is static method')
+    # static method does not have "self" in it. SO it does not need any value to run. It can be run just by calling it.
 
+
+objectA = RandomClass()
+objectA.say_hi()
