@@ -19,5 +19,5 @@ class Squire(Rectangle):
 
 r = Rectangle()
 sq = Squire()
-area = sq.area(2,2)
+area = sq.area(2, 2)
 print(area)
