@@ -30,3 +30,22 @@ print(num2.__lt__(num1))  # less than
 print(num1.__gt__(num2))  # greater than
 print(num1.__le__(num2))  # less than or equal
 print(num1.__ge__(num2))  # greater than or equal
+
+# ___________Arithmetics_________
+a = 2
+b = 3
+print(a.__add__(b))
+print(b.__sub__(a))
+print(a.__mul__(b))
+print(a.__divmod__(b))  # this has united the __div__ and __mod__. here a is divided by b and first result in tuple is division (int) and second result is remainder
+print(a.__pow__(b))
+print(b.__floordiv__(a))
+
+# ________Conversion______
+a = 2.3345645452999691
+intA = a.__int__()  # converts into an integer
+floatA = intA.__float__()  # converts into a float
+strA = a.__str__()  # converts into a string
+reprA = a.__repr__()  # converts into machine-readable string
+print(reprA)
+print(strA)
