@@ -6,4 +6,3 @@ try:
     print(f"20 + {insertNumber} = {add}")
 except Exception as ex:
     print(ex)
-
