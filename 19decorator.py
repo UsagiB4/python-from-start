@@ -17,8 +17,10 @@ def print_int(a_function, numb):
 
 def a_decorator(a_func):
     def add_hello():
+        print("Adding hello")
         str_to_add = "Hello"
         a_func(str_to_add)
+        print('Added hello')
 
         return
     return add_hello()
