@@ -31,3 +31,8 @@ if __name__ == "__main__":
     If you try to use other functions without object, it will through a 'TypeError'
     decomment the code to see the difference.
     """
+    # there are other decors too.
+    # like
+    # @staticmethod which works same as @classmethod.
+    # the only difference is @staticmethod doesn't let you use 'self' while creating the function
+    # in short, you have make it as a normal function
