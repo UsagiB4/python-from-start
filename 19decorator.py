@@ -28,6 +28,6 @@ def a_decorator(a_func):
 
 @a_decorator
 def say_name(a):
-    print(a,"Tasif")
+    print(a, "Tasif")
     return
 
