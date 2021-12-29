@@ -9,3 +9,8 @@ for words in temp_str:
     mail_search = re.search("([\w.-]+)@([\w.-]+)", words)
     print(mail_search.group())
 
+nameList = "Helen Keller, Jamal Hossain, David Copperfield, Tom Brown, Martin Hoffman"
+temp_name = nameList.split(',')
+for names in temp_name:
+    name_search = re.search("([A-z]+)\s([A-z]+)", names)
+    print(name_search.group())
