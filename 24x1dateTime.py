@@ -1,3 +1,4 @@
+import datetime
 from datetime import *
 
 # :::::::: Formatting Date times ::::::::::
@@ -17,5 +18,8 @@ print(newDate)
 newDate = myDateShort.strftime('%c')
 print(newDate)
 
-myBDay = date(1987, 2, 5)
+myBDay = datetime(1987, 2, 5)
 print(myBDay.strftime('%d/ %b/ %y'))
+
+rem = myDate - myBDay
+print(rem)
