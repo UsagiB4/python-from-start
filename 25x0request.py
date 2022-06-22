@@ -7,8 +7,6 @@ responseReq = randomReq.request
 print(responseReq)
 print(randomReq.reason)
 
-
-
 reqStat = randomReq.status_code  # returns status code
 print(reqStat == 200)  # returns True if the status code is 200
 print(reqStat)
